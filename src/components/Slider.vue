@@ -92,7 +92,7 @@ export default {
         .then(json => {
           json.data.forEach(a=>this.slides.push(a))
           this.show = true;
-          // this.runInterval()
+          this.runInterval()
         });
 
   },
